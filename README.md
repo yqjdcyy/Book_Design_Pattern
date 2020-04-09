@@ -1,12 +1,6 @@
 
 # 设计模式
 
-## 参考
-- 《HEAD_FIRST 设计模式》
-- [来源](http://domain.yqjdcyy.com/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/)
-- [图说设计模式](http://design-patterns.readthedocs.io/zh_CN/latest/)
-- [design pattern 包教不包会](https://wizardforcel.gitbooks.io/design-pattern-lessons/)
-
 
 ## 设计原则
 - 找出应用中可能需要**变化**之处，把它们**独立**出来，不要和那些不需要变化的代码混在一起
@@ -53,6 +47,10 @@
 - UML
 	- ![Observer-basic.jpg](http://doc.yqjdcyy.com/d1bb01c5-5df5-4933-aabe-c6aa4a12e6a8.jpg)
 	- ![Observer-java.jpg](http://doc.yqjdcyy.com/ce41ae37-8423-4360-81f4-36cec5a144ed.jpg)
+- 示例
+	- Spring 的事件机制
+		- `ApplicationEvent`+ `ApplicationListener`+ `ApplicationEventMultiCast`
+		- ![Spring.Event-Observer.png](http://doc.yqjdcyy.com/04dd5491-2d2b-4931-9423-837aea92a94e.png)
 
 
 ### 装饰者模式
@@ -62,6 +60,10 @@
 - UML
 	- ![Decorator.jpg](http://doc.yqjdcyy.com/6582eb45-313f-4a83-8981-4ab8d9ce6762.jpg)
 	- ![Decorator-book.jpg](http://doc.yqjdcyy.com/a6ba0b19-ef4d-475f-b537-ad8bb36764b3.jpg)
+- 示例
+	- Java.IO
+		- `Readable`+ `Reader`+ `InputStreamReader`
+		- ![Java.IO.Readable.png](http://doc.yqjdcyy.com/bbe6fff2-acbf-4351-bf88-fe703ed1e57c.png)
 
 
 ### 工厂模式
@@ -277,3 +279,17 @@
 	- 设计模式：可利用面向对象软件的基础
 	- The Timeless Way of building
 	- A Pattern Language
+
+
+## 参考
+
+### 书籍
+- 《HEAD_FIRST 设计模式》
+- [图说设计模式](http://design-patterns.readthedocs.io/zh_CN/latest/)
+- [design pattern 包教不包会](https://wizardforcel.gitbooks.io/design-pattern-lessons/)
+
+### 扩展
+- [spring事件驱动模型--观察者模式在spring中的应用](https://www.cnblogs.com/fingerboy/p/6393644.html)
+
+### 资源
+- [yqjdcyy/设计模式](http://domain.yqjdcyy.com/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/)
