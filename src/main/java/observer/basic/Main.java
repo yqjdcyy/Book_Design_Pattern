@@ -6,10 +6,10 @@ import observer.basic.observer.Observer;
 import observer.basic.observer.TVObserver;
 
 /**
- * Creator: Yao
- * Date:    2017/12/23
- * For:
- * Other:
+ *
+ *
+ * @author qingju.yao
+ * @date 2020/4/9
  */
 public class Main {
 

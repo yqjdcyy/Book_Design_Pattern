@@ -1,12 +1,12 @@
 package observer.basic.observer;
 
 /**
- * Creator: Yao
- * Date:    2017/12/23
- * For:
- * Other:
+ * @author qingju.yao
+ * @date 2020/4/9
  */
 public class TVObserver implements Observer {
+    
+    @Override
     public void update() {
         System.out.println("\tupdate for tv");
     }

@@ -3,10 +3,10 @@ package observer.java.observer;
 import java.util.Observable;
 
 /**
- * Creator: Yao
- * Date:    2017/12/23
- * For:
- * Other:
+ * 天气主题提供者
+ *
+ * @author qingju.yao
+ * @date 2020/4/9
  */
 public class WeatherSubject extends Observable {
 
@@ -19,8 +19,9 @@ public class WeatherSubject extends Observable {
 
     public void notice(Object arg) {
 
-        if (null == arg)
-            this.notice();
+        if (null == arg) {
+            notice();
+        }
 
         setChanged();
         System.out.println(String.format("\nObservable.notifyObservers(%s)", arg.toString()));

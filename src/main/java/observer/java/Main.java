@@ -7,10 +7,8 @@ import observer.java.subject.TVObserver;
 import java.util.Observer;
 
 /**
- * Creator: Yao
- * Date:    2017/12/23
- * For:
- * Other:
+ * @author qingju.yao
+ * @date 2020/4/9
  */
 public class Main {
 
@@ -19,10 +17,10 @@ public class Main {
         WeatherSubject subject = new WeatherSubject();
         subject.notice();
 
-        Observer observer = new TVObserver(subject);
+        new TVObserver(subject);
         subject.notice("add TVObserver");
 
-        observer = new MobileObserver(subject);
+        Observer observer = new MobileObserver(subject);
         subject.notice("add MobileObserver");
 
         subject.deleteObserver(observer);

@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Creator: Yao
- * Date:    2017/12/23
- * For:
- * Other:
+ * 天气主题提供者
+ *
+ * @author qingju.yao
+ * @date 2020/4/9
  */
 public class WeatherSubject implements Subject {
 
@@ -19,14 +19,17 @@ public class WeatherSubject implements Subject {
         list = new ArrayList<Observer>();
     }
 
+    @Override
     public void register(Observer observer) {
         list.add(observer);
     }
 
+    @Override
     public void remove(Observer observer) {
         list.remove(observer);
     }
 
+    @Override
     public void notice() {
 
         System.out.println("\nsubject.notice");
