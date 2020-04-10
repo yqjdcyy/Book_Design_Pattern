@@ -64,16 +64,29 @@
 	- Java.IO
 		- `Readable`+ `Reader`+ `InputStreamReader`
 		- ![Java.IO.Readable.png](http://doc.yqjdcyy.com/bbe6fff2-acbf-4351-bf88-fe703ed1e57c.png)
+	- Spring 场景
+		- TODO
 
 
 ### 工厂模式
 - 定义
 	- 定义创建对象的接口，用于创建相关或依赖对象的家族，而不需要明确指定具体类
 		- 把类**实例化**推迟到子类
+- 分类
+	- 简单工厂
+		- 根据 type 进行不同类型的创建
+	- 工厂模式
+		- 单一种类
+	- 抽象工厂
+		- 支持多种类型
+
 - UML
 	- ![Factory-simple.jpg](http://doc.yqjdcyy.com/6ed6929c-0d1f-429b-a434-7f03aecfd411.jpg)
 	- ![Factory-abstract.jpg](http://doc.yqjdcyy.com/bc6647cb-199f-4826-ab3c-1a60c0814c24.jpg)
 	- ![Factory-abstract-implement.jpg](http://doc.yqjdcyy.com/6a1797a8-d88d-4948-b1c9-cdbc21592115.jpg)
+- 示例
+	- AbstractFactoryBean
+		- TODO
 
 
 ### 单例模式
