@@ -65,7 +65,8 @@
 		- `Readable`+ `Reader`+ `InputStreamReader`
 		- ![Java.IO.Readable.png](http://doc.yqjdcyy.com/bbe6fff2-acbf-4351-bf88-fe703ed1e57c.png)
 	- Spring 场景
-		- TODO
+		- `ServletRequestWrapper`+= `ServletRequest`
+		- ![Spring.ServletRequest.png](http://doc.yqjdcyy.com/a65243fd-a285-485a-9080-dff4a21d32ae.png)
 
 ### 工厂模式
 - 定义
@@ -101,6 +102,10 @@
 		- `private volatile static VolatileSingleton ins;`
 			- **双重检查加锁**，最大限度减少同步
 			- volatile 可保障对应变量
+- 场景
+	- `Java.Runtime.getRuntime()`
+		- 饿汉式，static 形式初始化
+	- `Spring.AbstractFactoryBean.getObject()`
 
 
 ### 命令模式
