@@ -67,7 +67,6 @@
 	- Spring 场景
 		- TODO
 
-
 ### 工厂模式
 - 定义
 	- 定义创建对象的接口，用于创建相关或依赖对象的家族，而不需要明确指定具体类
@@ -79,14 +78,13 @@
 		- 单一种类
 	- 抽象工厂
 		- 支持多种类型
-
 - UML
 	- ![Factory-simple.jpg](http://doc.yqjdcyy.com/6ed6929c-0d1f-429b-a434-7f03aecfd411.jpg)
 	- ![Factory-abstract.jpg](http://doc.yqjdcyy.com/bc6647cb-199f-4826-ab3c-1a60c0814c24.jpg)
 	- ![Factory-abstract-implement.jpg](http://doc.yqjdcyy.com/6a1797a8-d88d-4948-b1c9-cdbc21592115.jpg)
 - 示例
-	- AbstractFactoryBean
-		- TODO
+	- `FactoryBean.getObject()`+ `AbstractFactoryBean.createInstance()`+ `ListFactoryBean|AbstractServiceLoaderBasedFactoryBean`
+	- ![Spring.FactoryBean.png](http://doc.yqjdcyy.com/386f6a0c-3251-43a4-84fd-b8f9ae49b25d.png)
 
 
 ### 单例模式
