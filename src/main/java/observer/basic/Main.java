@@ -1,13 +1,11 @@
 package observer.basic;
 
 import observer.basic.observer.MobileObserver;
-import observer.basic.subject.WeatherSubject;
 import observer.basic.observer.Observer;
 import observer.basic.observer.TVObserver;
+import observer.basic.subject.WeatherSubject;
 
 /**
- *
- *
  * @author qingju.yao
  * @date 2020/4/9
  */

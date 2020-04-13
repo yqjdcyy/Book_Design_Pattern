@@ -1,7 +1,7 @@
-package strategy.object;
+package strategy.basic.object;
 
-import strategy.behavior.FlyByWingsBehavior;
-import strategy.behavior.QuacByCrykBehavior;
+import strategy.basic.behavior.FlyByWingsBehavior;
+import strategy.basic.behavior.QuacByCrykBehavior;
 
 /**
  * Creator: Yao

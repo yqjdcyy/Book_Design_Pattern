@@ -1,8 +1,8 @@
 package observer.java;
 
-import observer.java.observer.WeatherSubject;
-import observer.java.subject.MobileObserver;
-import observer.java.subject.TVObserver;
+import observer.java.subject.WeatherSubject;
+import observer.java.observer.MobileObserver;
+import observer.java.observer.TVObserver;
 
 import java.util.Observer;
 

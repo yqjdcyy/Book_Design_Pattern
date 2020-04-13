@@ -1,4 +1,4 @@
-package strategy.behavior;
+package strategy.basic.behavior;
 
 /**
  * Creator: Yao

@@ -1,7 +1,7 @@
-package strategy.object;
+package strategy.basic.object;
 
-import strategy.behavior.FlyByRocketBehavior;
-import strategy.behavior.QuackByLaughBehavior;
+import strategy.basic.behavior.FlyByRocketBehavior;
+import strategy.basic.behavior.QuackByLaughBehavior;
 
 /**
  * Creator: Yao

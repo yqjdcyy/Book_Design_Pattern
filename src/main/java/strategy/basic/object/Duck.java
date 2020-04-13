@@ -1,7 +1,7 @@
-package strategy.object;
+package strategy.basic.object;
 
-import strategy.behavior.IFlyBehavior;
-import strategy.behavior.IQuackBehavior;
+import strategy.basic.behavior.IFlyBehavior;
+import strategy.basic.behavior.IQuackBehavior;
 
 /**
  * Creator: Yao

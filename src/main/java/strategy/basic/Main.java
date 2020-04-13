@@ -1,8 +1,8 @@
-package strategy;
+package strategy.basic;
 
-import strategy.object.Duck;
-import strategy.object.GreenDuck;
-import strategy.object.RedDuck;
+import strategy.basic.object.Duck;
+import strategy.basic.object.GreenDuck;
+import strategy.basic.object.RedDuck;
 
 /**
  * Creator: Yao

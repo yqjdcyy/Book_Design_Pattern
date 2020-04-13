@@ -37,6 +37,12 @@
 	- 行为被封装进一组类中，并于需要时**动态改变**
 - UML
 	- ![Strategy.jpg](http://doc.yqjdcyy.com/deba098a-00ec-401c-a036-4ea2b2a12d61.jpg)
+- 场景
+	- Java
+		- `RejectedExecutionHandler`
+		- ![Java.Concurrent.RejectedStatery.png](http://doc.yqjdcyy.com/0f364666-89ca-44a6-9aad-5efbd4cccf9c.png)
+	- Spring
+		- 
 
 
 ### 观察者模式
@@ -84,8 +90,12 @@
 	- ![Factory-abstract.jpg](http://doc.yqjdcyy.com/bc6647cb-199f-4826-ab3c-1a60c0814c24.jpg)
 	- ![Factory-abstract-implement.jpg](http://doc.yqjdcyy.com/6a1797a8-d88d-4948-b1c9-cdbc21592115.jpg)
 - 示例
-	- `FactoryBean.getObject()`+ `AbstractFactoryBean.createInstance()`+ `ListFactoryBean|AbstractServiceLoaderBasedFactoryBean`
-	- ![Spring.FactoryBean.png](http://doc.yqjdcyy.com/386f6a0c-3251-43a4-84fd-b8f9ae49b25d.png)
+	- Java.SQL
+		- `Connection`+ `DriverManager/ DataSource`
+		- ![Java.SQL.Connection.png](http://doc.yqjdcyy.com/68c7a1cd-be9b-46c0-9bb1-614028b2da4d.png)
+	- Spring.AbstractFactoryBean
+		- `FactoryBean.getObject()`+ `AbstractFactoryBean.createInstance()`+ `ListFactoryBean|AbstractServiceLoaderBasedFactoryBean`
+		- ![Spring.FactoryBean.png](http://doc.yqjdcyy.com/386f6a0c-3251-43a4-84fd-b8f9ae49b25d.png)
 
 
 ### 单例模式
