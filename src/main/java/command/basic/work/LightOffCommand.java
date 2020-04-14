@@ -1,6 +1,6 @@
-package command.work;
+package command.basic.work;
 
-import command.vo.Light;
+import command.basic.vo.Light;
 
 /**
  * Creator: Yao
@@ -8,16 +8,16 @@ import command.vo.Light;
  * For:
  * Other:
  */
-public class LightOnCommand implements Command {
+public class LightOffCommand implements Command {
 
     private Light light;
 
-    public LightOnCommand(Light light) {
+    public LightOffCommand(Light light) {
         this.light = light;
     }
 
     @Override
     public void execute() {
-        light.on();
+        light.off();
     }
 }

@@ -1,6 +1,6 @@
-package command.work;
+package command.basic.work;
 
-import command.vo.AirConditioner;
+import command.basic.vo.AirConditioner;
 
 /**
  * Creator: Yao

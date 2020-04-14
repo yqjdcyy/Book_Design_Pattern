@@ -1,4 +1,4 @@
-package command.work;
+package command.basic.work;
 
 /**
  * Creator: Yao

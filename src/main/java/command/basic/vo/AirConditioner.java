@@ -1,4 +1,4 @@
-package command.vo;
+package command.basic.vo;
 
 /**
  * Creator: Yao

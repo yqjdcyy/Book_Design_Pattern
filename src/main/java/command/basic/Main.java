@@ -1,7 +1,7 @@
-package command;
+package command.basic;
 
-import command.vo.*;
-import command.work.*;
+import command.basic.vo.*;
+import command.basic.work.*;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 package facade.work;
 
 import facade.vo.Sound;
-import command.vo.Light;
+import command.basic.vo.Light;
 
 import java.util.ArrayList;
 import java.util.List;
