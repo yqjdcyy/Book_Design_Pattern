@@ -42,7 +42,8 @@
 		- `RejectedExecutionHandler`
 		- ![Java.Concurrent.RejectedStatery.png](http://doc.yqjdcyy.com/0f364666-89ca-44a6-9aad-5efbd4cccf9c.png)
 	- Spring
-		- 
+		- `Resource`
+		- ![Spring.Resource.png](http://doc.yqjdcyy.com/6a0dbc2b-ba85-403f-b0c7-7f45bbd6e7d0.png)
 
 
 ### 观察者模式
