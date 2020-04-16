@@ -122,8 +122,17 @@
 - 定义
 	- 将**请求**封装为**对象**，以便使用不同的请求、队列或者日志来参数化其它对象
 		- 宏命令用于支持多个命令
+	- 实现**行为请求者**和**行为执行者**之间的解耦
 - UML
 	- ![Command.jpg](http://doc.yqjdcyy.com/620058e8-776a-45d2-afd7-2b4eed251919.jpg)
+- 场景
+	- Java
+		- `Runnable`
+		- ![Java.Runnable.png](http://doc.yqjdcyy.com/db78fdc2-4fa0-4dc9-8410-1401d307ea9d.png)
+	- Spring
+		- `StatementCallback`+ `JdbcTemplate`
+		- ![Spring.JDBC.StatementCallback.png](http://doc.yqjdcyy.com/23e36923-14ce-4445-be4b-bd4f87ca615d.png)
+
 
 
 ### 适配器模式
