@@ -208,8 +208,8 @@
 - 步骤
 	- 启动 `rmiregistry` 服务
 	- 编译并使用 `rmic proxy.proxy.ProxyRemoteImpl` 自动生成 `ProxyRemoteImpl_Stub`
-	- 运行 ProxyRemoteImpl 服务
-	- 运行 ProxyRemoteClient 请求服务
+	- 运行 `ProxyRemoteImpl` 服务
+	- 运行 `ProxyRemoteClient` 请求服务
 - 常见异常
 	- 未在启动远程服务前**先启动 `rmiregistry` 服务**
 	- 须确认变量和返回值类型**可序列化**
@@ -219,7 +219,8 @@
 	- ![Proxy-RMI.jpg](http://doc.yqjdcyy.com/0ea20303-74c7-405b-8631-f0509c4aba51.jpg)
 	- ![Proxy-protected.jpg](http://doc.yqjdcyy.com/1eb7bdbd-b35c-417a-bddb-ae8cb2a2add9.jpg)
 	- ![Proxy-dynamic.jpg](http://doc.yqjdcyy.com/0c1e27cc-7e2c-413d-90af-0d273fd0f4aa.jpg)
-
+- 场景
+	- 
 
 ### 复合模式
 - 定义
