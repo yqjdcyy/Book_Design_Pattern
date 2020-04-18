@@ -220,7 +220,7 @@
 	- ![Proxy-protected.jpg](http://doc.yqjdcyy.com/1eb7bdbd-b35c-417a-bddb-ae8cb2a2add9.jpg)
 	- ![Proxy-dynamic.jpg](http://doc.yqjdcyy.com/0c1e27cc-7e2c-413d-90af-0d273fd0f4aa.jpg)
 - 场景
-	- 
+	- http://www.throwable.club/2018/12/16/cglib-dynamic-proxy-analyze/
 
 ### 复合模式
 - 定义

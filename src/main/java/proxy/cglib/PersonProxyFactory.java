@@ -6,8 +6,11 @@ import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
+import java.nio.file.Paths;
 
 /**
+ * 代理工厂类
+ *
  * @author qingju.yao
  * @date 2020/04/17
  */
@@ -16,7 +19,7 @@ public class PersonProxyFactory {
     public static PersonService getInstance() {
 
         // Debug 模式，将代理类输出至本地环境
-        final String path = PersonProxyFactory.class.getResource("").getPath() + "class/";
+        final String path = Paths.get("target", "cglib").toString();
         System.out.println(path);
         System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, path);
 
