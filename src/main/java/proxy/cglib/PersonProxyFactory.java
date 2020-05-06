@@ -36,7 +36,7 @@ public class PersonProxyFactory {
                 } catch (Exception e) {
                     System.err.println(e.getMessage());
                 }
-                System.out.println("Start");
+                System.out.println("End");
                 return result;
             }
         });
