@@ -19,7 +19,8 @@ public class PersonProxyFactory {
     public static PersonService getInstance() {
 
         // Debug 模式，将代理类输出至本地环境
-        final String path = Paths.get("target", "cglib").toString();
+        String path = Paths.get("target", "cglib").toAbsolutePath().normalize().toString();
+        path = "D:\\work\\git\\yao\\up\\Book_Design_Pattern\\target\\test-classes\\proxy\\cglib";
         System.out.println(path);
         System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, path);
 

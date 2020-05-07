@@ -1,6 +1,9 @@
-package proxy.cglib;
+package proxy;
 
 import org.junit.jupiter.api.Test;
+import proxy.cglib.PersonProxyFactory;
+import proxy.cglib.PersonService;
+
 /**
  * Cglib - Code Generation Library 实现版本
  * <p>
@@ -12,7 +15,6 @@ import org.junit.jupiter.api.Test;
  * Class[X]
  * Code[Y]
  * <p>
- * TODO YQJ: http://www.throwable.club/2018/12/16/cglib-dynamic-proxy-analyze/
  *
  * @author qingju.yao
  * @date 2020/04/17
