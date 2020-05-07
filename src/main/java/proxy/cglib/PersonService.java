@@ -11,4 +11,8 @@ public class PersonService {
     public void say() {
         System.out.println("say something");
     }
+
+    public void eat() {
+        System.out.println("eat something");
+    }
 }
